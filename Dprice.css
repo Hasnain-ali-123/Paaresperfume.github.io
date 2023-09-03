@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* * Small Navbar */ 
+
+.nav1{
+    background-color: #f5f5f5;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-house{
+    color: black;
+    font-size: 18px;
+}
+
+.home{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 20;
+}
+
+.home1 li{
+    display: inline-block;
+    list-style: none;
+}
+
+.line{
+    width: 35px;
+    height: 1px;
+    background-color: #000;
+}
+
+/* Small Navbar */
+
+
+.half-pic{
+    /* height: 600px; */
+    background-image: url(assets/brands/alina.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.box-for-pricing{
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    height: 100vh;
+    background-color: rgb(8, 8, 8,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-name{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+}
+
+.brand-price{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    /* font-weight: bold; */
+}
+
+
+@media only screen and (max-width: 768px) {
+    .com{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+    }
+        
+    
+    .nav-item a{
+        line-height: 30px;
+    }
+    
+    .nav-item a:hover{
+       color: black !important;
+       font-weight: 600;
+       text-decoration: underline;
+    }
+
+        /* navigtion css */
+
+.nav-link{
+    color: black;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.nav-boxes{
+    /* border: 1px solid #000; */
+    height: 100px;
+}
+
+.nav-boxes h1{
+    font-family: 'Noto Serif Khojki', serif;
+    font-weight: bold;
+}
+
+.nav-boxes span{
+    font-size: 15px;
+}
+
+.free-shipping{
+    background-color: #f3f3c0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-shipping h6{
+    color: #000000;
+    word-spacing: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icons ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.icons a{
+    font-size: 25px;
+}
+
+.icons i{
+    color: #000000;
+}
+
+.search-bar{
+    width: 220px;
+}
+
+
+@media only screen and (max-width: 864px) {
+.icons-remove{
+    display: none;
+}
+
+.search-bar{
+    display: none;
+}
+
+.logo{
+    text-align: center;
+}
+
+
+}
+/* navigtion css */
+
+
+
+
+.nav-link{
+    font-family: 'Noto Serif Khojki', serif;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        text-transform: none;
+        letter-spacing: 0em;
+}
+
+.fa-bars{
+    font-size: 40px;
+}

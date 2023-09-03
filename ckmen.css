@@ -1,0 +1,492 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.front-banner{
+    height: 640px;
+    width: 1260px;
+    background-image: url(assets/brands/wallpapic.com\ -\ Calvin\ Klein\,\ Perfumes\,\ Ocean\,\ Beach\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.front-banner h1{
+    color: rgb(158, 154, 154);
+    font-family: 'Lora', serif;}
+
+.front-banner p{
+    color: rgb(163, 161, 161);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+.front-banner h4{
+    color: rgb(153, 152, 152);
+    font-family: 'Lora', serif;
+}
+
+.shop-button{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    width: 140px;
+    background-color: rgb(173, 171, 171);
+    transition: all 0.5s ease-in;
+}
+
+.shop-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+}
+
+.front-box-main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.front-box{
+    /* border: 1px solid #000; */
+    height: 410px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.nuit{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/ck\ 212.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.nuit:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/ck\ 212.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+.nuit h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;   
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.nuit p{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;   
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.nuit a{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.nuit a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.spell{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/ck\ narciso.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.spell:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/ck\ narciso.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+.spell h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.spell p{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.spell a{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.spell a:hover{
+    color: rgb(253, 253, 253);
+}
+
+
+.SWM{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/ck\ libre.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.SWM:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/ck\ libre.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+
+.SWM h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.SWM p{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.SWM a{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.SWM a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.best{
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+}
+
+
+.ck1{
+    background-image: url(assets/brands/ck1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck1:hover{
+    background-image: url(assets/brands/ck4.jpg);
+    transition: all 0.5s;
+}
+  
+  
+.ck2{
+    background-image: url(assets/brands/ck\ euphorbia1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck2:hover{
+    background-image: url(assets/brands/ck\ euphorbia.jpg);
+    transition: all 0.5s;
+}
+
+
+.ck3{
+    background-image: url(assets/brands/ck3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck3:hover{
+    background-image: url(assets/brands/ck\ dfey.jpg);
+    transition: all 0.5s;
+}
+  
+.ck4{
+    background-image: url(assets/brands/ck\ one.jpg1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck4:hover{
+    background-image: url(assets/brands/ck\ one.jpg);
+    transition: all 0.5s;
+}
+
+.ck5{
+    background-image: url(assets/brands/ck\ modern.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck5:hover{
+    background-image: url(assets/brands/ck\ modern.webp1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck6{
+    background-image: url(assets/brands/ck\ narciso.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck6:hover{
+    background-image: url(assets/brands/ck\ narciso.webp1.webp);
+    transition: all 1s !important;
+}
+
+.ck7{
+    background-image: url(assets/brands/ck\ club.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck7:hover{
+    background-image: url(assets/brands/ck\ club.webp1.jpg);
+    transition: all 1s !important;
+}
+
+.ck8{
+    background-image: url(assets/brands/ck\ libre.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck8:hover{
+    background-image: url(assets/brands/ck\ libre1.jpg);
+    transition: all 1s !important;
+}
+
+.ck9{
+    background-image: url(assets/brands/ck\ wanted.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck9:hover{
+    background-image: url(assets/brands/ck\ wanted1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck10{
+    background-image: url(assets/brands/ck\ Versace.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck10:hover{
+    background-image: url(assets/brands/ck\ Versace\ 1.webp);
+    transition: all 1s !important;
+}
+
+
+
+.ck11{
+    background-image: url(assets/brands/ck\ legend.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck11:hover{
+    background-image: url(assets/brands/ck\ legend.webp1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck12{
+    background-image: url(assets/brands/ck\ 212.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck12:hover{
+    background-image: url(assets/brands/ck\ 212\ 1.webp);
+    transition: all 1s !important;
+}
+
+.ck13{
+    background-image: url(assets/brands/ck\ armaf.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck13:hover{
+    background-image: url(assets/brands/ck\ armaf1.jpg);
+    transition: all 1s !important;
+}
+
+
+.ck14{
+    background-image: url(assets/brands/ck\ black.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck14:hover{
+    background-image: url(assets/brands/ck\ black1.jpg);
+    transition: all 1s !important;
+}
+
+.ck15{
+    background-image: url(assets/brands/ck\ IN2U.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck15:hover{
+    background-image: url(assets/brands/ck\ IN2U.webp1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck16{
+    background-image: url(assets/brands/ck\ vip.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck16:hover{
+    background-image: url(assets/brands/ck\ vip1.webp);
+    transition: all 1s !important;
+}

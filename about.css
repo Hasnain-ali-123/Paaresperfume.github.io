@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.division2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.division2 p{
+    color: rgb(119, 117, 117);
+    font-family: sans-serif;
+}
+
+.division2 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: black;
+    font-weight: 500;
+}
+
+.review{
+    /* border: 1px solid #000; */
+    height: 200px;
+}
+
+.review1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.review1 h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.review1 p{
+    color: rgb(141, 140, 140);
+    font-family: sans-serif;
+}
+
+.review1 h6{
+    color: rgb(112, 111, 111);
+
+}
+
+.review2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.day{
+    color: black;
+    font-weight: bold;
+}
+
+.division1{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.small-pic{
+    height: 500px;
+    width: 600px;
+    background-image: url(assets/brands/ck\ wanted2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.strive{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
+.strive-para{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: grey;
+
+}
+
+.compasion{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+.pro-box{
+    height: 150px;
+    width: 130px;
+}
+
+.pro-box1{
+    background-image: url(assets/brands/organic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro-box2{
+    background-image: url(assets/brands/cruetly.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro-box3{
+    background-image: url(assets/brands/period.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.compasion h3{
+    color: rgb(0, 0, 0);
+}
+
+.compasion p{
+    text-align: center;
+    color: grey;
+}
+
+.some-box1{
+    height: 450px;
+    background-image: url(assets/brands/dior\ suvage1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.some-box2{
+    height: 450px;
+    background-image: url(assets/brands/ck\ armaf2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    .com{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+    }
+        
+    
+    .nav-item a{
+        line-height: 30px;
+    }
+    
+    .nav-item a:hover{
+       color: black !important;
+       font-weight: 600;
+       text-decoration: underline;
+    }
+
+    /* navigtion css */
+
+.nav-link{
+    color: black;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.nav-boxes{
+    /* border: 1px solid #000; */
+    height: 100px;
+}
+
+.nav-boxes h1{
+    font-family: 'Noto Serif Khojki', serif;
+    font-weight: bold;
+}
+
+.nav-boxes span{
+    font-size: 15px;
+}
+
+.free-shipping{
+    background-color: #f3f3c0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-shipping h6{
+    color: #000000;
+    word-spacing: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icons ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.icons a{
+    font-size: 25px;
+}
+
+.icons i{
+    color: #000000;
+}
+
+.search-bar{
+    width: 220px;
+}
+
+
+@media only screen and (max-width: 864px) {
+.icons-remove{
+    display: none;
+}
+
+.search-bar{
+    display: none;
+}
+
+.logo{
+    text-align: center;
+}
+
+
+}
+/* navigtion css */
+
+
+
+
+.nav-link{
+    font-family: 'Noto Serif Khojki', serif;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        text-transform: none;
+        letter-spacing: 0em;
+}
+
+.fa-bars{
+    font-size: 40px;
+}

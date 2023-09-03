@@ -1,0 +1,799 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.women{
+    overflow: hidden;
+}
+
+.image-women{
+    background-image: url(assets/brands/eternity-for-women-enhansed-1-1024x1024.webp);
+    transform: scale(1, 1);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-women:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+    overflow: visible;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)) , url(assets/brands/eternity-for-women-enhansed-1-1024x1024.webp);
+}
+
+
+.men{
+    overflow: hidden;
+}
+
+.image-men{
+    background-image: url(assets/brands/Calvin_Klein_Eternity_for_Men_range.png);
+  transform: scale(1, 1);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-men:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+    overflow: visible;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)) , url(assets/brands/Calvin_Klein_Eternity_for_Men_range.png);
+}
+
+.image-men h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-men , a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-men , a:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+.image-women h2{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-women, a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-women, a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.yourelf{
+    text-align: center;
+    color: black;
+}
+
+
+
+.box{
+    width: 250px;
+    height: 330px;
+    /* border: 1px solid #000; */
+}
+  
+.price{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+  
+a ,.price{
+    text-decoration: none;
+}
+  
+.brand a{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+  
+  
+.ck1{
+    background-image: url(assets/brands/ck1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck1:hover{
+    background-image: url(assets/brands/ck4.jpg);
+    transition: all 0.5s;
+}
+  
+  
+.ck2{
+    background-image: url(assets/brands/ck\ euphorbia1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck2:hover{
+    background-image: url(assets/brands/ck\ euphorbia.jpg);
+    transition: all 0.5s;
+}
+
+
+.ck3{
+    background-image: url(assets/brands/ck3.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck3:hover{
+    background-image: url(assets/brands/ck\ dfey.jpg);
+    transition: all 0.5s;
+}
+  
+.ck4{
+    background-image: url(assets/brands/ck\ one.jpg1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck4:hover{
+    background-image: url(assets/brands/ck\ one.jpg);
+    transition: all 0.5s;
+}
+
+.ck5{
+    background-image: url(assets/brands/ck\ modern.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck5:hover{
+    background-image: url(assets/brands/ck\ modern.webp1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck6{
+    background-image: url(assets/brands/ck\ narciso.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck6:hover{
+    background-image: url(assets/brands/ck\ narciso.webp1.webp);
+    transition: all 1s !important;
+}
+
+.ck7{
+    background-image: url(assets/brands/ck\ club.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck7:hover{
+    background-image: url(assets/brands/ck\ club.webp1.jpg);
+    transition: all 1s !important;
+}
+
+.ck8{
+    background-image: url(assets/brands/ck\ libre.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck8:hover{
+    background-image: url(assets/brands/ck\ libre1.jpg);
+    transition: all 1s !important;
+}
+
+.ck9{
+    background-image: url(assets/brands/ck\ wanted.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck9:hover{
+    background-image: url(assets/brands/ck\ wanted1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck10{
+    background-image: url(assets/brands/ck\ Versace.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck10:hover{
+    background-image: url(assets/brands/ck\ Versace\ 1.webp);
+    transition: all 1s !important;
+}
+
+
+
+.ck11{
+    background-image: url(assets/brands/ck\ legend.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck11:hover{
+    background-image: url(assets/brands/ck\ legend.webp1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck12{
+    background-image: url(assets/brands/ck\ 212.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck12:hover{
+    background-image: url(assets/brands/ck\ 212\ 1.webp);
+    transition: all 1s !important;
+}
+
+.ck13{
+    background-image: url(assets/brands/ck\ armaf.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck13:hover{
+    background-image: url(assets/brands/ck\ armaf1.jpg);
+    transition: all 1s !important;
+}
+
+
+.ck14{
+    background-image: url(assets/brands/ck\ black.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck14:hover{
+    background-image: url(assets/brands/ck\ black1.jpg);
+    transition: all 1s !important;
+}
+
+.ck15{
+    background-image: url(assets/brands/ck\ IN2U.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck15:hover{
+    background-image: url(assets/brands/ck\ IN2U.webp1.webp);
+    transition: all 1s !important;
+}
+
+
+.ck16{
+    background-image: url(assets/brands/ck\ vip.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.ck16:hover{
+    background-image: url(assets/brands/ck\ vip1.webp);
+    transition: all 1s !important;
+}
+
+
+  .content1{
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    right: -100%;
+    transition: all 0.5s;
+  }
+  
+  .box:hover .content1{
+    right: 0%;
+  }
+  
+  .select-option{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    margin: 17px;
+    position: relative;
+    left: 100px;
+    bottom: 280px;
+  }
+  
+  .select-option:hover{
+    background-color: #000;
+    color: white;
+  }
+
+  @media only screen and (max-width: 575px) {
+    .box{
+      width: 500px;
+      height: 500px;
+       margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 220px;
+      bottom: 370px;
+    
+    }
+    }
+    
+    @media only screen and (max-width: 527px) {
+    .box{
+      width: 500px;
+      height: 500px;
+       margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 200px;
+    }
+    }
+    
+    @media only screen and (max-width: 510px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 195px;
+    }
+    }
+    
+    @media only screen and (max-width: 495px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 170px;
+    }
+    }
+    
+    @media only screen and (max-width: 485px) {
+    .box{
+      width: 500px;
+      height: 500px;
+       margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 155px;
+    }
+    }
+    
+    @media only screen and (max-width: 460px) {
+     .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+     }
+     
+     
+    .select-option{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       transition: all 0.5s;
+       margin: 30px;
+       position: relative;
+       left: 145px;
+     }
+    }
+               
+    @media only screen and (max-width: 445px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+     }
+     
+     
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 135px;
+     }
+    }
+    
+    @media only screen and (max-width: 435px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+     }
+     
+     
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 115px;
+     }
+    }
+    
+    
+    @media only screen and (max-width: 410px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+      }
+      
+      
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 100px;
+      }
+    }
+                           
+    @media only screen and (max-width: 395px) {
+     .box{
+       width: 500px;
+       height: 500px;
+        margin: 50px;
+     }
+     
+     
+    .select-option{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       transition: all 0.5s;
+       margin: 30px;
+       position: relative;
+       left: 85px;
+     }
+    }
+    
+    @media only screen and (max-width: 786px) {
+      .box1{
+        height: 500px;
+      }
+    
+      .box4{
+        height: 500px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .com{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      
+        }
+        }
+
+    .more a{
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: lighter;
+
+      }
+    .nav-item a{
+      line-height: 30px;
+      font-weight: lighter;
+  }
+  
+  .nav-item a:hover{
+     color: black !important;
+     font-weight: 600;
+     text-decoration: underline;
+  }
+
+      /* navigtion css */
+
+.nav-link{
+    color: black;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.nav-boxes{
+    /* border: 1px solid #000; */
+    height: 100px;
+}
+
+.nav-boxes h1{
+    font-family: 'Noto Serif Khojki', serif;
+    font-weight: bold;
+}
+
+.nav-boxes span{
+    font-size: 15px;
+}
+
+.free-shipping{
+    background-color: #f3f3c0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-shipping h6{
+    color: #000000;
+    word-spacing: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icons ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.icons a{
+    font-size: 25px;
+}
+
+.icons i{
+    color: #000000;
+}
+
+.search-bar{
+    width: 220px;
+}
+
+
+@media only screen and (max-width: 864px) {
+.icons-remove{
+    display: none;
+}
+
+.search-bar{
+    display: none;
+}
+
+.logo{
+    text-align: center;
+}
+
+
+}
+/* navigtion css */
+
+
+
+
+.nav-link{
+    font-family: 'Noto Serif Khojki', serif;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        text-transform: none;
+        letter-spacing: 0em;
+}
+
+.fa-bars{
+    font-size: 40px;
+}

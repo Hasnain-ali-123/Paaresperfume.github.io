@@ -1,0 +1,618 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.front-banner{
+    height: 640px;
+    width: 1260px;
+    background-image: url(assets/brands/brandon-romanchuk-b-DNARdf6uo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.front-banner h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+.front-banner p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.front-banner h4{
+    color: white;
+    font-family: sans-serif;
+}
+
+.shop-button{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    width: 140px;
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+
+.shop-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+}
+
+.front-box-main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.front-box{
+    /* border: 1px solid #000; */
+    height: 410px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.nuit{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/dior\ women4.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.nuit:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/dior\ women4.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+.nuit h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;   
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.nuit p{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;   
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.nuit a{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.nuit a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.spell{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/diorwhite.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.spell:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/diorwhite.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+.spell h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.spell p{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.spell a{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.spell a:hover{
+    color: rgb(253, 253, 253);
+}
+
+
+.SWM{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/dior\ poison.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.SWM:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/dior\ poison.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+
+.SWM h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.SWM p{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.SWM a{
+    color: rgb(0, 0, 0);
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.SWM a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.best{
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+}
+
+
+.dior1{
+    background-image: url(assets/brands/dior\ women4.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .dior1:hover{
+    background-image: url(assets/brands/dior\ women5.webp);
+    transition: all 0.5s;
+  }
+  
+  .price{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  a ,.price{
+    text-decoration: none;
+  }
+  
+  .brand a{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .dior2{
+    background-image: url(assets/brands/dior\ women3.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .dior2:hover{
+    background-image: url(assets/brands/dior6.webp);
+    transition: all 0.5s;
+  }
+  
+  .dior3{
+    background-image: url(assets/brands/dior\ intense.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+   
+  }
+  
+  .dior3:hover{
+    background-image: url(assets/brands/dior\ intense.webp1.webp);
+    transition: all 0.5s;
+  }
+  
+  
+  .dior4{
+    background-image: url(assets/brands/diorwhite.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+   
+  }
+  
+  .dior4:hover{
+    background-image: url(assets/brands/diorwhite.webp1.webp);
+    transition: all 0.5s;
+  }
+
+  .dior5{
+    background-image: url(assets/brands/dior\ faheren.webp5.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .dior5:hover{
+    background-image: url(assets/brands/dior\ faheren.webp4.webp);
+    transition: all 2s !important;
+  }
+
+
+  .dior8{
+    background-image: url(assets/brands/dior\ faheren.webp2.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .dior8:hover{
+    background-image: url(assets/brands/dior\ faheren.webp1.webp);
+    transition: all 2s !important;
+  }
+
+
+  .dior7{
+    background-image: url(assets/brands/dior\ faheren.webp6.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .dior7:hover{
+    background-image: url(assets/brands/dior\ faheren.webp3.webp);
+    transition: all 2s !important;
+  }
+
+
+  .dior6{
+    background-image: url(assets/brands/dior5.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .dior6:hover{
+    background-image: url(assets/brands/dior\ intense.webp2.webp);
+    transition: all 2s !important;
+  }
+
+
+.dior9{
+    background-image: url(assets/brands/dior\ suvage.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.dior9:hover{
+    background-image: url(assets/brands/dior\ suvage2.jpg);
+    transition: all 2s !important;
+}
+
+
+.dior10{
+    background-image: url(assets/brands/dior\ jules.jpg);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.dior10:hover{
+    background-image: url(assets/brands/dior\ jules1.webp);
+    transition: all 2s !important;
+}
+
+.dior11{
+    background-image: url(assets/brands/dior\ dune1.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.dior11:hover{
+    background-image: url(assets/brands/dior\ dune.webp);
+    transition: all 2s !important;
+}
+
+
+.dior12{
+    background-image: url(assets/brands/dior\ higher.jpg);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.dior12:hover{
+    background-image: url(assets/brands/dior\ higher1.webp);
+    transition: all 2s !important;
+}
+
+
+.dior13{
+    background-image: url(assets/brands/dior\ eua\ dauvage.jpg);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.dior13:hover{
+    background-image: url(assets/brands/dior\ eua\ dauvage.jpg1.jpg);
+    transition: all 2s !important;
+}
+
+.dior14{
+    background-image: url(assets/brands/dior1.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.dior14:hover{
+    background-image: url(assets/brands/dior\ joy.jpg);
+    transition: all 2s !important;
+}
+
+
+
+.dior15{
+    background-color: rgb(245, 243, 243);
+    background-image: url(assets/brands/diorwhite.webp2.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.dior15:hover{
+    background-image: url(assets/brands/dior\ faheren.webp);
+    transition: all 2s !important;
+}
+
+
+.dior16{
+    background-image: url(assets/brands/dior\ diunaa.webp4.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.dior16:hover{
+    background-image: url(assets/brands/dior\ diunaa.webp3.webp);
+    transition: all 2s !important;
+}
+
+  /* navigtion css */
+
+  .nav-link{
+    color: black;
+    font-weight: 300;
+    font-family: sans-serif;
+  }
+  
+  .nav-boxes{
+    /* border: 1px solid #000; */
+    height: 100px;
+  }
+  
+  .nav-boxes h1{
+    font-family: 'Noto Serif Khojki', serif;
+    font-weight: bold;
+  }
+  
+  .nav-boxes span{
+    font-size: 15px;
+  }
+  
+  .free-shipping{
+    background-color: #f3f3c0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .free-shipping h6{
+    color: #000000;
+    word-spacing: 3px;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .icons ul li{
+    display: inline-block;
+    padding-right: 40px;
+  }
+  
+  .icons a{
+    font-size: 25px;
+  }
+  
+  .icons i{
+    color: #000000;
+  }
+  
+  .search-bar{
+    width: 220px;
+  }
+  
+  
+  @media only screen and (max-width: 864px) {
+  .icons-remove{
+    display: none;
+  }
+  
+  .search-bar{
+    display: none;
+  }
+  
+  .logo{
+    text-align: center;
+  }
+  
+  
+  }
+  /* navigtion css */
+  
+  
+  
+  
+  .nav-link{
+    font-family: 'Noto Serif Khojki', serif;
+        font-size: 15px;
+        font-weight: 600;
+        font-style: normal;
+        text-transform: none;
+        letter-spacing: 0em;
+  }
+  
+  .fa-bars{
+    font-size: 40px;
+  }

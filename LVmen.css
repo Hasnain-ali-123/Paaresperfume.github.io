@@ -1,0 +1,531 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.front-banner{
+    height: 640px;
+    width: 1260px;
+    background-image: url(assets/Images/dorrell\ \(3\).jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.front-banner h1{
+    color: white;
+    font-family: sans-serif;
+}
+
+.front-banner p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.front-banner h4{
+    color: white;
+    font-family: sans-serif;
+}
+
+.shop-button{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    width: 140px;
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+
+.shop-button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+}
+
+.front-box-main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.front-box{
+    /* border: 1px solid #000; */
+    height: 410px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.nuit{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/louis\ cactus.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.nuit:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/louis\ cactus.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+.nuit h2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.nuit p{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.nuit a{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.nuit a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.spell{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/louis\ spell.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.spell:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/louis\ spell.webp);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+.spell h2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.spell p{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.spell a{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.spell a:hover{
+    color: rgb(253, 253, 253);
+}
+
+
+.SWM{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/louis\ travel\ case.avif);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    transform: scale(1, 1);
+}
+
+.SWM:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(assets/brands/louis\ travel\ case.avif);
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+}
+
+
+.SWM h2{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.SWM p{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.SWM a{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: large;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+
+.SWM a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.best{
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+
+.louis17{
+    background-image: url(assets/brands/louis\ case.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+.louis17:hover{
+    background-image: url(assets/brands/louis\ case.avif1.webp);
+    transition: all 2s !important;
+  }
+  
+  
+.louis18{
+    background-image: url(assets/brands/louis\ orges.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis18:hover{
+    background-image: url(assets/brands/louis\ orges.avif1.avif);
+    transition: all 2s !important;
+}
+  
+.louis19{
+    background-image: url(assets/brands/louis\ mentro.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis19:hover{
+    background-image: url(assets/brands/louis\ mentro.avif1.avif);
+    transition: all 2s !important;
+}
+  
+.louis20{
+    background-image: url(assets/brands/louis\ travel\ case.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+  
+.louis20:hover{
+    background-image: url(assets/brands/louis\ travel\ case.avif1.png);
+    transition: all 2s !important;
+
+}
+
+
+.louis21{
+    background-image: url(assets/brands/louis\ cactus.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis21:hover{
+    background-image: url(assets/brands/louis\ cactus.webp1.webp);
+    transition: all 2s !important;
+}
+
+.louis22{
+    background-image: url(assets/brands/louis\ nuit.webp1.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis22:hover{
+    background-image: url(assets/brands/louis\ nuit.webp2.webp);
+    transition: all 2s !important;
+}
+
+
+.louis23{
+    background-image: url(assets/brands/louis\ etoile.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis23:hover{
+    background-image: url(assets/brands/louis\ etoile.avif1.avif);
+    transition: all 2s !important;
+}
+
+.louis24{
+    background-image: url(assets/brands/louis\ case.avif2.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis24:hover{
+    background-image: url(assets/brands/louis\ case.avif);
+    transition: all 2s !important;
+}
+
+
+.louis25{
+    background-image: url(assets/brands/lous\ sun.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis25:hover{
+    background-image: url(assets/brands/lous\ sun.webp1.webp);
+    transition: all 2s !important;
+}
+
+
+.louis26{
+    background-image: url(assets/brands/louis\ ombre.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis26:hover{
+    background-image: url(assets/brands/louis\ ombre.webp1.avif);
+    transition: all 2s !important;
+}
+
+.louis27{
+    background-image: url(assets/brands/louis\ hasard.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis27:hover{
+    background-image: url(assets/brands/louis\ hasard.avif1.avif);
+    transition: all 2s !important;
+}
+
+
+.louis28{
+    background-image: url(assets/brands/louis\ sura.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+  
+.louis28:hover{
+    background-image: url(assets/brands/louis\ sura.avif1.avif);
+    transition: all 2s !important;
+}
+
+
+
+    /* navigtion css */
+
+    .nav-link{
+        color: black;
+        font-weight: 300;
+        font-family: sans-serif;
+    }
+    
+    .nav-boxes{
+        /* border: 1px solid #000; */
+        height: 100px;
+    }
+    
+    .nav-boxes h1{
+        font-family: 'Noto Serif Khojki', serif;
+        font-weight: bold;
+    }
+    
+    .nav-boxes span{
+        font-size: 15px;
+    }
+    
+    .free-shipping{
+        background-color: #f3f3c0;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .free-shipping h6{
+        color: #000000;
+        word-spacing: 3px;
+        font-weight: 600;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .icons ul li{
+        display: inline-block;
+        padding-right: 40px;
+    }
+    
+    .icons a{
+        font-size: 25px;
+    }
+    
+    .icons i{
+        color: #000000;
+    }
+    
+    .search-bar{
+        width: 220px;
+    }
+    
+    
+    @media only screen and (max-width: 864px) {
+    .icons-remove{
+        display: none;
+    }
+    
+    .search-bar{
+        display: none;
+    }
+    
+    .logo{
+        text-align: center;
+    }
+    
+    
+    }
+    /* navigtion css */
+    
+    
+    
+    
+    .nav-link{
+        font-family: 'Noto Serif Khojki', serif;
+            font-size: 15px;
+            font-weight: 600;
+            font-style: normal;
+            text-transform: none;
+            letter-spacing: 0em;
+    }
+    
+    .fa-bars{
+        font-size: 40px;
+    }

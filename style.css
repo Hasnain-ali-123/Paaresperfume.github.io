@@ -1,0 +1,1017 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ box-sizing: border-box;
+}
+
+
+.first-image{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-image h5{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.first-image h1{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90px;
+}
+
+.first-image a{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.first-image1{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(assets/brands/ck\ dfey.jpg1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+.first-image2{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(assets/brands/eternity-for-women-enhansed-1-1024x1024.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.yourelf{
+  text-align: center;
+}
+
+.box{
+  width: 250px;
+  height: 330px;
+}
+
+.dior1{
+  background-image: url(assets/brands/dior\ women4.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.dior1:hover{
+  background-image: url(assets/brands/dior\ women5.webp);
+  transition: all 1s !important;
+}
+
+.price{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+a ,.price{
+  text-decoration: none;
+}
+
+.brand a{
+  font-family: sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+
+.dior2{
+  background-image: url(assets/brands/dior\ women3.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.dior2:hover{
+  background-image: url(assets/brands/dior6.webp);
+  transition: all 1s !important;
+}
+
+.dior3{
+  background-image: url(assets/brands/dior\ intense.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+ 
+}
+
+.dior3:hover{
+  background-image: url(assets/brands/dior\ intense.webp1.webp);
+  transition: all 1s !important;
+}
+
+
+.dior4{
+  background-image: url(assets/brands/diorwhite.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+ 
+}
+
+.dior4:hover{
+  background-image: url(assets/brands/diorwhite.webp1.webp);
+  transition: all 1s !important;
+}
+
+.louis1{
+  background-image: url(assets/brands/louis\ bvlagri.webp1.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.louis1:hover{
+  background-image: url(assets/brands/louis\ bvlagri.webp);
+  transition: all 1s !important;
+}
+
+
+.louis2{
+  background-image: url(assets/brands/louis\ sunday.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.louis2:hover{
+  background-image: url(assets/brands/louis\ sunday.webp1.webp);
+  transition: all 1s !important;
+}
+
+.louis3{
+  background-image: url(assets/brands/luois\ less\ sable.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.louis3:hover{
+  background-image: url(assets/brands/luois\ less\ sable.webp1.webp);
+  transition: all 1s !important;
+}
+
+.louis4{
+  background-image: url(assets/brands/louis\ christian.webp);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.louis4:hover{
+  background-image: url(assets/brands/louis\ christian.webp1.webp);
+  transition: all 1s !important;
+}
+
+
+.ck1{
+  background-image: url(assets/brands/ck1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.ck1:hover{
+  background-image: url(assets/brands/ck4.jpg);
+  transition: all 1s !important;
+}
+
+
+.ck2{
+  background-image: url(assets/brands/ck\ euphorbia1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.ck2:hover{
+  background-image: url(assets/brands/ck\ euphorbia.jpg);
+  transition: all 1s !important;
+}
+.ck3{
+  background-image: url(assets/brands/ck3.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.ck3:hover{
+  background-image: url(assets/brands/ck\ dfey.jpg);
+  transition: all 1s !important;
+}
+
+.ck4{
+  background-image: url(assets/brands/ck\ one.jpg1.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.ck4:hover:hover{
+  background-image: url(assets/brands/ck\ one.jpg);
+  transition: all 1s !important;
+}
+
+/* .davidoff1{
+  background-image: url(assets/brands/df\ game\ off.png);
+  background-color: rgb(240, 240, 240);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.davidoff1:hover{
+  background-image: url(assets/brands/df\ game\ off.png1.png);
+  transition: all 0.5s;
+}
+
+.davidoff2{
+  background-image: url(assets/brands/df\ wave.png);
+  background-color: rgb(240, 240, 240);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.davidoff2:hover{
+  background-image: url(assets/brands/df\ wave.png1.png);
+  transition: all 0.5s;
+}
+
+
+.davidoff3{
+  background-image: url(assets/brands/df\ run\ wild.png);
+  background-color: rgb(240, 240, 240);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.davidoff3:hover{
+  background-image: url(assets/brands/df\ run\ wild.png1.png);
+  transition: all 0.5s;
+}
+
+.davidoff4{
+  background-image: url(assets/brands/df\ intense.png);
+  background-color: rgb(240, 240, 240);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+
+.davidoff4:hover{
+  background-image: url(assets/brands/df\ intense.png1.png);
+  transition: all 0.5s;
+} */
+
+.content1{
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  box-sizing: border-box;
+  position: absolute;
+  right: -100%;
+  transition: all 0.5s;
+}
+
+.box:hover .content1{
+  right: 0%;
+}
+
+.select-option{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 17px;
+  position: relative;
+  left: 100px;
+  bottom: 280px;
+}
+
+.select-option:hover{
+  background-color: #000;
+  color: white;
+}
+
+@media only screen and (max-width: 575px) {
+.box{
+  width: 500px;
+  height: 500px;
+   margin: 50px;
+}
+
+
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 220px;
+  bottom: 370px;
+
+}
+}
+
+@media only screen and (max-width: 527px) {
+.box{
+  width: 500px;
+  height: 500px;
+   margin: 50px;
+}
+
+
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 200px;
+}
+}
+
+@media only screen and (max-width: 510px) {
+.box{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+}
+
+
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 195px;
+}
+}
+
+@media only screen and (max-width: 495px) {
+.box{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+}
+
+
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 170px;
+}
+}
+
+@media only screen and (max-width: 485px) {
+.box{
+  width: 500px;
+  height: 500px;
+   margin: 50px;
+}
+
+
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 155px;
+}
+}
+
+@media only screen and (max-width: 460px) {
+ .box{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+ }
+ 
+ 
+.select-option{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s;
+   margin: 30px;
+   position: relative;
+   left: 145px;
+ }
+}
+           
+@media only screen and (max-width: 445px) {
+.box{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+ }
+ 
+ 
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 135px;
+ }
+}
+
+@media only screen and (max-width: 435px) {
+.box{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+ }
+ 
+ 
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 115px;
+ }
+}
+
+
+@media only screen and (max-width: 410px) {
+.box{
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+  }
+  
+  
+.select-option{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+  margin: 30px;
+  position: relative;
+  left: 100px;
+  }
+}
+                       
+@media only screen and (max-width: 395px) {
+ .box{
+   width: 500px;
+   height: 500px;
+    margin: 50px;
+ }
+ 
+ 
+.select-option{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s;
+   margin: 30px;
+   position: relative;
+   left: 85px;
+ }
+}
+
+@media only screen and (max-width: 786px) {
+  .box1{
+    height: 500px;
+  }
+
+  .box4{
+    height: 500px;
+  }
+
+  .remove-box{
+    display: none;
+  }
+}
+
+.shop{
+  border: 2px solid #ebebeb;
+  background-color: #ffffff;
+  color: black;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+}
+
+.shop:hover{
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+
+}
+
+.box1{
+  background-image: url(assets/brands/dior7.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.box4{
+  background-image: url(assets/brands/luois\ less\ sable.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.box2{
+  background-color: rgb(226, 226, 226);
+}
+
+.off{
+  width: 60px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #4e7661;
+  color: white;
+}
+
+.special{
+  margin-top: 170px;
+  color: #000;
+}
+
+.save{
+  color: #000;
+  font-weight: 550;
+}
+.clean{
+  color: rgb(122, 119, 119);
+  font-size: 18px;
+  font-weight: 430;
+}
+
+.time{
+  color: #4e7661;
+  font-size: 2rem;
+}
+
+.get-only{
+  background-color: #000;
+  color: white;
+  font-weight: 500;
+  width: 190px;
+  height: 50px;
+}
+
+.get-only:hover{
+  background-color: #4e7661;
+  color: black;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.special1{
+  color: white;
+  font-weight: 500;
+  margin-top: 170px;
+}
+
+.fragrance{
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.Discover{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  width: 190px;
+  height: 50px;
+
+}
+
+.Discover:hover{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.blogs{
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogs p{
+  text-align: center;
+  color: #777676;
+  font-size: 19px;
+  font-weight: 440;
+}
+
+.blogs h1{
+  margin-top: 70px;
+  color: black;
+}
+
+.pic1{
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/amir-2O3NECoCdKw-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  transform: scale(1, 1);
+
+
+}
+
+.pic1:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(assets/brands/amir-2O3NECoCdKw-unsplash.jpg);
+  transform: scale(1.1, 1.1);
+  transition: all 0.7s ;
+
+}
+
+.pic2{
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/ali-bakhtiari-7ic3yF64FS8-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  transform: scale(1, 1);
+
+}
+
+.pic2:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(assets/brands/ali-bakhtiari-7ic3yF64FS8-unsplash.jpg);
+  transform: scale(1.1, 1.1);
+  transition: all 0.7s ;
+
+}
+
+.pic3{
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/brands/sonia-dauer-eTMMCz6JI6s-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  transform: scale(1, 1);
+}
+
+.pic3:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(assets/brands/sonia-dauer-eTMMCz6JI6s-unsplash.jpg);
+  transform: scale(1.1, 1.1);
+  transition: all 0.7s ;
+
+}
+
+
+.box5 a{
+  text-decoration: none;
+}
+
+.box5 a p{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.by-reference{
+  font-size: 15px;
+  text-align: center;
+  color: #777676;
+  font-weight: 600;
+}
+
+.by-reference span{
+  color: rgb(41, 40, 40);
+}
+
+@media only screen and (max-width: 768px) {
+  .com{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  }
+      
+  
+  .nav-item a{
+      line-height: 30px;
+  }
+  
+  .nav-item a:hover{
+     color: black !important;
+     font-weight: 600;
+     text-decoration: underline;
+  }
+
+  .more a{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+
+  .perfume-box{
+    width: 410px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .perfume-box1{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/Images/dorrell\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .perfume-box h2{
+    color: white;
+    font-family: sans-serif;
+
+  }
+
+
+.perfume-box a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+
+  .perfume-box1:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(assets/Images/dorrell\ \(1\).jpg);
+      transform: scale(1.07, 1.07);
+      transition: all 0.4s ease-in-out;
+  }
+
+
+  .perfume-box2{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/Images/non-YTCxJqtzmVk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+
+.perfume-box2:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(assets/Images/non-YTCxJqtzmVk-unsplash.jpg);
+      transform: scale(1.07, 1.07);
+      transition: all 0.4s ease-in-out;
+  }
+
+  .perfume-box3{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(assets/Images/dorrell\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .perfume-box3:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(assets/Images/dorrell\ \(2\).jpg);
+      transition: all 0.4s ease-in-out;
+      transform: scale(1.07, 1.07);
+  }
+
+  
+/* navigtion css */
+
+.nav-link{
+  color: black;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.nav-boxes{
+  /* border: 1px solid #000; */
+  height: 100px;
+}
+
+.nav-boxes h1{
+  font-family: 'Noto Serif Khojki', serif;
+  font-weight: bold;
+}
+
+.nav-boxes span{
+  font-size: 15px;
+}
+
+.free-shipping{
+  background-color: #f3f3c0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.free-shipping h6{
+  color: #000000;
+  word-spacing: 3px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.icons ul li{
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.icons a{
+  font-size: 25px;
+}
+
+.icons i{
+  color: #000000;
+}
+
+.search-bar{
+  width: 220px;
+}
+
+
+@media only screen and (max-width: 864px) {
+.icons-remove{
+  display: none;
+}
+
+.search-bar{
+  display: none;
+}
+
+.logo{
+  text-align: center;
+}
+
+
+}
+/* navigtion css */
+
+
+
+
+.nav-link{
+  font-family: 'Noto Serif Khojki', serif;
+      font-size: 15px;
+      font-weight: 600;
+      font-style: normal;
+      text-transform: none;
+      letter-spacing: 0em;
+}
+
+.fa-bars{
+  font-size: 40px;
+}
+
+   

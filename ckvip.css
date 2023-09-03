@@ -1,0 +1,305 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Small Navbar */
+
+.nav1{
+    background-color: #f5f5f5;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-house{
+    color: black;
+    font-size: 18px;
+}
+
+.home{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 20;
+}
+
+.home1 li{
+    display: inline-block;
+    list-style: none;
+}
+
+.line{
+    width: 35px;
+    height: 1px;
+    background-color: #000;
+}
+
+/* Small Navbar */
+
+
+/* Product Box CSS */
+.Product-pic{
+    height: 700px;
+    /* background-image: url(assets/brands/diorwhite.webp); */
+    background-position: center;
+    background-size: cover;
+}
+
+.magnifying-glass{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: larger;
+}
+
+.product-info{
+    height: 720px;
+}
+
+.checked {
+    color: rgb(53, 136, 64);
+    font-size: 12px;
+}
+
+.litre{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#Litre{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #c5c1c1;
+}
+
+.add-to-cart{
+    width: 240px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+
+}
+
+.add-to-cart:hover{
+    background-color: rgb(126, 122, 122);
+    color: black;
+}
+
+
+.compare-whislist a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.grey-line{
+    border: 1px solid #dad4d4;
+    height: 1px;
+    width: 470px;
+}
+/* Product Box CSS */
+
+
+/* -- quantity box -- */
+
+.quantity {
+    display: inline-block; }
+   
+   .quantity .input-text.qty {
+    width: 45px;
+    height: 50px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: #d1cece;
+    border: 1px solid #d1cece;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 50px;
+    background-color: #d1cece;
+    border: 1px solid #d1cece;
+    cursor:pointer;
+    border-radius: 3px;
+}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    /* -moz-appearance: none; */
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+   
+/* -- quantity box -- */
+   
+/* alternate-pic */
+.small-boxes1{
+    height: 160px;
+    border: 3px solid #ffffff;
+    background-image: url(assets/brands/ck\ vip.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.small-boxes2{
+    height: 160px;
+    border: 3px solid #ffffff;
+    background-image: url(assets/brands/ck\ vip1.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.small-boxes3{
+    height: 160px;
+    border: 3px solid #ffffff;
+    background-image: url(assets/brands/ck\ vip.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* alternate-pic */
+
+.special{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.light{
+    color: grey;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+    /* navigtion css */
+
+    .nav-link{
+        color: black;
+        font-weight: 300;
+        font-family: sans-serif;
+    }
+    
+    .nav-boxes{
+        /* border: 1px solid #000; */
+        height: 100px;
+    }
+    
+    .nav-boxes h1{
+        font-family: 'Noto Serif Khojki', serif;
+        font-weight: bold;
+    }
+    
+    .nav-boxes span{
+        font-size: 15px;
+    }
+    
+    .free-shipping{
+        background-color: #f3f3c0;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .free-shipping h6{
+        color: #000000;
+        word-spacing: 3px;
+        font-weight: 600;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+    .icons ul li{
+        display: inline-block;
+        padding-right: 40px;
+    }
+    
+    .icons a{
+        font-size: 25px;
+    }
+    
+    .icons i{
+        color: #000000;
+    }
+    
+    .search-bar{
+        width: 220px;
+    }
+    
+    
+    @media only screen and (max-width: 864px) {
+    .icons-remove{
+        display: none;
+    }
+    
+    .search-bar{
+        display: none;
+    }
+    
+    .logo{
+        text-align: center;
+    }
+    
+    
+    }
+    /* navigtion css */
+    
+    
+    
+    
+    .nav-link{
+        font-family: 'Noto Serif Khojki', serif;
+            font-size: 15px;
+            font-weight: 600;
+            font-style: normal;
+            text-transform: none;
+            letter-spacing: 0em;
+    }
+    
+    .fa-bars{
+        font-size: 40px;
+    }
+    

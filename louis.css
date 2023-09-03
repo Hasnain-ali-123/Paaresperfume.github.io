@@ -1,0 +1,810 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.women{
+    overflow: hidden;
+}
+
+.image-women{
+    background-image: url(assets/brands/louis\(WOMEN\).jpg);
+    transform: scale(1, 1);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-women:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+    overflow: visible;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)) , url(assets/brands/louis\(WOMEN\).jpg);
+}
+
+
+.men{
+    overflow: hidden;
+}
+
+.image-men{
+    background-image: url(assets/brands/louis\(MEN\).jpg);
+  transform: scale(1, 1);
+    height: 550px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-men:hover{
+    transform: scale(1.1, 1.1);
+    transition: all 0.7s ;
+    overflow: visible;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.5)) , url(assets/brands/louis\(MEN\).jpg);
+}
+
+.image-men h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-men , a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-men , a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.image-women h2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-women, a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.image-women, a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.yourelf{
+    text-align: center;
+    color: black;
+}
+
+
+
+.box{
+    width: 250px;
+    height: 330px;
+    /* border: 1px solid #000; */
+  }
+  
+  .louis1{
+    background-image: url(assets/brands/louis\ bvlagri.webp1.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis1:hover{
+    background-image: url(assets/brands/louis\ bvlagri.webp);
+    transition: all 0.5s;
+  }
+  
+  
+  .louis2{
+    background-image: url(assets/brands/louis\ sunday.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis2:hover{
+    background-image: url(assets/brands/louis\ sunday.webp1.webp);
+    transition: all 0.5s;
+  }
+  
+  .louis3{
+    background-image: url(assets/brands/luois\ less\ sable.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis3:hover{
+    background-image: url(assets/brands/luois\ less\ sable.webp1.webp);
+    transition: all 0.5s;
+  }
+  
+  .louis4{
+    background-image: url(assets/brands/louis\ christian.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis4:hover{
+    background-image: url(assets/brands/louis\ christian.webp1.webp);
+    transition: all 0.5s;
+  }
+  
+  
+  .price{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+  }
+  
+  a ,.price{
+    text-decoration: none;
+  }
+  
+  .brand a{
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  
+  .louis5{
+    background-image: url(assets/brands/louis\ travel\ case.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis5:hover{
+    background-image: url(assets/brands/louis\ travel\ case.avif1.png);
+    transition: all 0.5s;
+  }
+
+
+  .louis6{
+    background-image: url(assets/brands/louis\ cactus.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis6:hover{
+    background-image: url(assets/brands/louis\ cactus.webp1.webp);
+    transition: all 0.5s;
+  }
+
+
+  .louis7{
+    background-image: url(assets/brands/louis\ contre.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis7:hover{
+    background-image: url(assets/brands/louis\ contre1.avif);
+    transition: all 0.5s;
+  }
+
+
+  .louis8{
+    background-image: url(assets/brands/louis\ atrape.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis8:hover{
+    background-image: url(assets/brands/louis\ atrape.webp1.webp);
+    transition: all 0.5s;
+  }
+
+  .louis9{
+    background-image: url(assets/brands/louis\ orges.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis9:hover{
+    background-image: url(assets/brands/louis\ orges.avif1.avif);
+    transition: all 0.5s;
+  }
+
+  .louis10{
+    background-image: url(assets/brands/louis\ spell.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis10:hover{
+    background-image: url(assets/brands/louis\ spell.webp1.webp);
+    transition: all 0.5s;
+  }
+
+  .louis11{
+    background-image: url(assets/brands/louis\ emmensite.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis11:hover{
+    background-image: url(assets/brands/louis\ emmensite.webp1.webp);
+    transition: all 0.5s;
+  }
+
+  .louis12{
+    background-image: url(assets/brands/louis\ mentro.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis12:hover{
+    background-image: url(assets/brands/louis\ mentro.avif1.avif);
+    transition: all 0.5s;
+  }
+
+
+  .louis13{
+    background-image: url(assets/brands/louis\ rose.avif2.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis13:hover{
+    background-image: url(assets/brands/louis\ rose.avif1.avif);
+    transition: all 0.5s;
+  }
+
+
+  .louis14{
+    background-image: url(assets/brands/louis\ nuit.webp1.webp);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis14:hover{
+    background-image: url(assets/brands/louis\ nuit.webp2.webp);
+    transition: all 0.5s;
+  }
+
+
+  .louis15{
+    background-image: url(assets/brands/louis\ etoile.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis15:hover{
+    background-image: url(assets/brands/louis\ etoile.avif1.avif);
+    transition: all 0.5s;
+  }
+
+  .louis16{
+    background-image: url(assets/brands/louis\ heures.avif);
+    background-color: rgb(245, 243, 243);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+  }
+  
+  .louis16:hover{
+    background-image: url(assets/brands/louis\ heures.avif1.avif);
+    transition: all 0.5s;
+  }
+
+
+  .content1{
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+    position: absolute;
+    right: -100%;
+    transition: all 0.5s;
+  }
+  
+  .box:hover .content1{
+    right: 0%;
+  }
+  
+  .select-option{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    margin: 17px;
+    position: relative;
+    left: 100px;
+    bottom: 280px;
+  }
+  
+  .select-option:hover{
+    background-color: #000;
+    color: white;
+  }
+
+  @media only screen and (max-width: 575px) {
+    .box{
+      width: 500px;
+      height: 500px;
+       margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 220px;
+      bottom: 370px;
+    
+    }
+    }
+    
+    @media only screen and (max-width: 527px) {
+    .box{
+      width: 500px;
+      height: 500px;
+       margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 200px;
+    }
+    }
+    
+    @media only screen and (max-width: 510px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 195px;
+    }
+    }
+    
+    @media only screen and (max-width: 495px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 170px;
+    }
+    }
+    
+    @media only screen and (max-width: 485px) {
+    .box{
+      width: 500px;
+      height: 500px;
+       margin: 50px;
+    }
+    
+    
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 155px;
+    }
+    }
+    
+    @media only screen and (max-width: 460px) {
+     .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+     }
+     
+     
+    .select-option{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       transition: all 0.5s;
+       margin: 30px;
+       position: relative;
+       left: 145px;
+     }
+    }
+               
+    @media only screen and (max-width: 445px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+     }
+     
+     
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 135px;
+     }
+    }
+    
+    @media only screen and (max-width: 435px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+     }
+     
+     
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 115px;
+     }
+    }
+    
+    
+    @media only screen and (max-width: 410px) {
+    .box{
+      width: 500px;
+      height: 500px;
+      margin: 50px;
+      }
+      
+      
+    .select-option{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s;
+      margin: 30px;
+      position: relative;
+      left: 100px;
+      }
+    }
+                           
+    @media only screen and (max-width: 395px) {
+     .box{
+       width: 500px;
+       height: 500px;
+        margin: 50px;
+     }
+     
+     
+    .select-option{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       transition: all 0.5s;
+       margin: 30px;
+       position: relative;
+       left: 85px;
+     }
+    }
+    
+    @media only screen and (max-width: 786px) {
+      .box1{
+        height: 500px;
+      }
+    
+      .box4{
+        height: 500px;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .com{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      
+        }
+        }
+
+    .more a{
+        color: #000000;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: lighter;
+
+      }
+    .nav-item a{
+      line-height: 30px;
+      font-weight: lighter;
+  }
+  
+  .nav-item a:hover{
+     color: black !important;
+     font-weight: 600;
+     text-decoration: underline;
+  }
+
+      /* navigtion css */
+
+.nav-link{
+  color: black;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.nav-boxes{
+  /* border: 1px solid #000; */
+  height: 100px;
+}
+
+.nav-boxes h1{
+  font-family: 'Noto Serif Khojki', serif;
+  font-weight: bold;
+}
+
+.nav-boxes span{
+  font-size: 15px;
+}
+
+.free-shipping{
+  background-color: #f3f3c0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.free-shipping h6{
+  color: #000000;
+  word-spacing: 3px;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.icons ul li{
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.icons a{
+  font-size: 25px;
+}
+
+.icons i{
+  color: #000000;
+}
+
+.search-bar{
+  width: 220px;
+}
+
+
+@media only screen and (max-width: 864px) {
+.icons-remove{
+  display: none;
+}
+
+.search-bar{
+  display: none;
+}
+
+.logo{
+  text-align: center;
+}
+
+
+}
+/* navigtion css */
+
+
+
+
+.nav-link{
+  font-family: 'Noto Serif Khojki', serif;
+      font-size: 15px;
+      font-weight: 600;
+      font-style: normal;
+      text-transform: none;
+      letter-spacing: 0em;
+}
+
+.fa-bars{
+  font-size: 40px;
+}
